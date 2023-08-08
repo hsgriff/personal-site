@@ -1,0 +1,46 @@
+.top-first{
+    padding:8px 48px 48px 48px;
+    margin:-10px;
+    background-color: rgb(109,113,36);
+    color:rgb(197,140,102);
+}
+.top-display{
+    display: flex;
+    gap:12px;
+}
+a{
+    text-decoration: none;
+    color:rgb(197,140,102);
+}
+.first-section{
+    display: flex;
+    gap:12px;
+    padding-top: 48px;
+    
+}
+.page-title{
+    margin-right: auto;
+}
+.about-me{
+    font-size: 48px;
+    font-family: 'Roboto';
+    min-width: 200px;
+}
+.description{
+    max-width: 300px;
+    font-size:18px;
+}
+img{
+    height:200px;
+    width:auto;
+    flex:0;
+    margin-left: auto;
+}
+button{
+    background:rgb(248, 243, 154);
+    color:rgb(197,140,102);
+    border:0;
+    font-size: 15px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 5px;
+}
