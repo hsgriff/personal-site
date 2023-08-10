@@ -1,4 +1,4 @@
-deep olive : (55,62,2)
-olive : (109,113,36)
-sulfur : (232,222,53)
-cinnamon :(197,140,102)
+red: #69100F
+blue: #4e5778
+brown: #E39E6A
+black: #121417

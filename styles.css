@@ -1,34 +1,10 @@
-.top-first{
-    padding:8px 48px 48px 48px;
-    margin:-10px;
-    background-color: rgb(109,113,36);
-    color:rgb(197,140,102);
-}
-.top-display{
-    display: flex;
-    gap:12px;
+html,
+body {
+    margin:0;
 }
 a{
     text-decoration: none;
     color:rgb(197,140,102);
-}
-.first-section{
-    display: flex;
-    gap:12px;
-    padding-top: 48px;
-    
-}
-.page-title{
-    margin-right: auto;
-}
-.about-me{
-    font-size: 48px;
-    font-family: 'Roboto';
-    min-width: 200px;
-}
-.description{
-    max-width: 300px;
-    font-size:18px;
 }
 img{
     height:200px;
@@ -37,10 +13,71 @@ img{
     margin-left: auto;
 }
 button{
-    background:rgb(248, 243, 154);
-    color:rgb(197,140,102);
+    background: #69100F;
+    color:#E39E6A;
     border:0;
     font-size: 15px;
     padding: 4px 12px 4px 12px;
     border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.top-first{
+    padding:16px 96px 48px 96px;
+    background-color:#121417;
+    color:#E39E6A;
+}
+.top-display{
+    display: flex;
+    gap:12px;
+}
+.first-section{
+    display: flex;
+    gap:100px;
+    padding-top: 48px;
+}
+
+.page-title{
+    margin-right: auto;
+}
+.about-me{
+    font-size: 48px;
+    font-family: 'Roboto';
+    min-width: 260px;
+    width: 360px;
+}
+.description{
+    font-size:18px;
+}
+
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    background:#4e5778;
+    color:#121417;
+    font-size: 36px;
+}
+.projects{
+    padding: 48px;
+    display: flex;
+    gap:24px;
+    font-size: 18px;
+}
+.projects img {
+    border: 5px solid #69100F;
+    border-radius: 15px;
+    flex:none;
+    width:100px;
+    height: auto;
 }
