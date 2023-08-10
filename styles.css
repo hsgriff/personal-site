@@ -34,15 +34,21 @@ button{
     padding:16px 96px 48px 96px;
     background-color:#121417;
     color:#E39E6A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .top-display{
+    width:100%;
     display: flex;
     gap:12px;
+    
 }
 .first-section{
     display: flex;
     gap:100px;
     padding-top: 48px;
+    max-width: 980px;
 }
 
 .page-title{
@@ -63,21 +69,30 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 48px;
+    padding: 48px 144px 48px 144px;
     background:#4e5778;
     color:#121417;
     font-size: 36px;
 }
-.projects{
+.all-projects{
     padding: 48px;
+    width: 100%;
     display: flex;
-    gap:24px;
+    gap:56px;
     font-size: 18px;
+    justify-content: space-between;
 }
-.projects img {
-    border: 5px solid #69100F;
-    border-radius: 15px;
-    flex:none;
-    width:100px;
+.proj{
+    flex-direction: column;
+    align-items: center;
+    min-width:100px;
+    width: 150px;
     height: auto;
+}
+.proj img {
+    border: 5px solid #69100F;
+    flex: 1 1 auto;
+    border-radius: 15px;
+    width: 100%;
+    height:auto;
 }
